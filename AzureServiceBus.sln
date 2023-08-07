@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus", "AzureServiceBus\AzureServiceBus.csproj", "{FAA519E1-23F8-4647-A2DC-749D1E114141}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueReceiver", "QueueReceiver\QueueReceiver.csproj", "{1AABA372-5B51-40BA-96A6-87B3ADD5ACF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FAA519E1-23F8-4647-A2DC-749D1E114141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA519E1-23F8-4647-A2DC-749D1E114141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA519E1-23F8-4647-A2DC-749D1E114141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AABA372-5B51-40BA-96A6-87B3ADD5ACF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AABA372-5B51-40BA-96A6-87B3ADD5ACF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AABA372-5B51-40BA-96A6-87B3ADD5ACF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AABA372-5B51-40BA-96A6-87B3ADD5ACF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
